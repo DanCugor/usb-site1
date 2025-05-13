@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>УСБ Бобруйск</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f1115;
+      color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e1f26;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #2c2f36;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #f2f2f2;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .card {
+      background-color: #1e1f26;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #1e1f26;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Управление Собственной Безопасности</h1>
+    <p>Бобруйск Полиция | Официальный сайт</p>
+  </header>
+  <nav>
+    <a href="#about">О нас</a>
+    <a href="#sostav">Состав</a>
+    <a href="#docs">Документы</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+  <section id="about">
+    <h2>О нас</h2>
+    <div class="card">
+      <p>УСБ — это отдел, занимающийся контролем за соблюдением правил и стандартов в рядах полиции. Наша задача — дисциплина, чистота и порядок.</p>
+    </div>
+  </section>
+  <section id="sostav">
+    <h2>Состав отдела</h2>
+    <div class="card">
+      <p>Начальник: DanCugor</p>
+      <p>Заместитель: [вставить]</p>
+      <p>Сотрудники: [список будет добавлен]</p>
+    </div>
+  </section>
+  <section id="docs">
+    <h2>Документы</h2>
+    <div class="card">
+      <ul>
+        <li><a href="https://docs.google.com" target="_blank">Устав УСБ</a></li>
+        <li><a href="https://docs.google.com" target="_blank">КоАП Бобруйска</a></li>
+        <li><a href="https://forms.gle" target="_blank">Форма подачи жалобы</a></li>
+      </ul>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Контакты</h2>
+    <div class="card">
+      <p>Discord: DanCugor#XXXX</p>
+      <p>Email: usbbobruisk@fictionalmail.com</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 УСБ Бобруйск | Все права защищены</p>
+  </footer>
+</body>
+</html>
